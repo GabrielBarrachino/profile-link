@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo{
+    padding: 1.2rem;
+    padding-bottom: 6rem;
+    background-color: #292935;
+}
+
+.title-logo{
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+
+.title-logo span{
+    font-size: 1.4rem;
+    color: #6DB0FF;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 30px;
+    border-radius: 10px;
+}
+
+.img-perfil{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 20%;
+    padding: 8px;
+    position: relative;
+    top: -60px;
+}
+
+.links-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    margin-top: -40px;
+}
+
+.container-project{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 1px 2px 20px #ADA7A7,
+                -1px -2px 20px #ADA7A7;
+    transition: .3s all ease;
+}
+
+.container-project:hover{
+    border: 1px solid #6DB0FF;
+    transform: translateY(-5px);
+}
+
+
+.container-project .icon-project{
+    font-size: 2.3rem;
+    margin-right: 20px;
+    color: #6DB0FF;
+}
+
+.icon-arrow{
+    color: #6DB0FF;
+    font-size: 2rem;
+    margin-left: auto;
+}
+
+.title-project{
+    color: #201c1c;
+    font-size: 1.1rem;
+}
+
+.text-project{
+    font-size: .8rem;
+    color: #ADA7A7;
+}
+
+.social-media{
+    text-align: center;
+    margin: 40px;
+}
+
+.text-social{
+    font-size: .9rem;
+    color: #ADA7A7;
+    margin-bottom: 30px;
+}
+
+.text-social:before,
+.text-social:after {
+  background-color: #ADA7A7;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 30%;
+}
+
+.text-social:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+.text-social:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+.icons-social i{
+    color: #6DB0FF;
+    font-size: 1.9rem;
+    margin-right: 18px;
+    transition: .3s all;
+}
+
+.icons-social i:hover{
+    color: #292935;
+    transform: translateY(-5px);
+}
+
+
+@media screen and (min-width: 600px){
+    .title-logo{
+        margin-left: 30%;
+    }
+}
